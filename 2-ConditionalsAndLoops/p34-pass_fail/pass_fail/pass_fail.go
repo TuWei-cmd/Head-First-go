@@ -17,13 +17,17 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	input = strings.TrimSpace(input)
 	grade, err := strconv.ParseFloat(input, 64)
-	if grade == 100.0 {
-		fmt.Println("Perfect")
-	} else if grade >= 60.0 {
-		fmt.Println("You pass.")
-	} else {
-		fmt.Println("You fail!")
+	if err != nil {
+		log.Fatal(err)
 	}
+	var status string
+	if grade >= 60 {
+		status = "passing"
+	} else {
+		status = "failing"
+	}
+	fmt.Println("A grade of", grade, "is", status)
 }
