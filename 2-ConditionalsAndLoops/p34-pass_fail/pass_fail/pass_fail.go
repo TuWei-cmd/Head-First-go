@@ -14,7 +14,13 @@ func main() {
 	input, err := reader.ReadString('\n')
 	if err != nil {
 		log.Fatal(err)
-		return
 	}
 	fmt.Println(input)
+	// if int(input) == 100 {
+	// 	fmt.Println("Perfect")
+	// } else if int(input) >= 60 {
+	// 	fmt.Println("You pass.")
+	// } else {
+	// 	fmt.Println("You fail!")
+	// }
 }
