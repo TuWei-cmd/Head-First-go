@@ -1,3 +1,4 @@
+// guess challenges players to guess a random number.
 package main
 
 import (
