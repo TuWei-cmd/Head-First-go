@@ -1,8 +1,9 @@
 package main
 
 import (
-	"clac"
 	"fmt"
+
+	"github.com/headfirstgo/clac"
 )
 
 func main() {
