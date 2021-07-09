@@ -1,8 +1,9 @@
 package main
 
 import (
-	"dates"
 	"fmt"
+
+	"github.com/headfirstgo/dates"
 )
 
 func main() {
