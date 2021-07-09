@@ -1,8 +1,8 @@
 package main
 
 import (
-	"greeting"
-	"greeting/deutsch"
+	"github.com/headfirstgo/greeting"
+	"github.com/headfirstgo/greeting/deutsch"
 )
 
 func main() {
