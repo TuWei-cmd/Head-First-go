@@ -1,6 +1,6 @@
 package main
 
-import "greeting"
+import "github.com/headfirstgo/greeting"
 
 func main() {
 	greeting.Hello()
