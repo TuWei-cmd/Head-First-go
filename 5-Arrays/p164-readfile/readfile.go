@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("./5-Arrays/p164-readfile/data.txt")
+	file, err := os.Open("./data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
