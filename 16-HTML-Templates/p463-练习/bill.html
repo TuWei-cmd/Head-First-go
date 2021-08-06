@@ -1,0 +1,10 @@
+<h1>Invoice</h1>
+<p>Name: {{.Name}}</p>
+{{if .Paid}}
+<p>Paid - Thank you!</p>
+{{end}}
+<h1>Fess</h1>
+{{range .Chargers}}
+<p>${{.}}</p>
+{{end}}
+<p>Total: ${{.Total}}</p>
